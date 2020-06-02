@@ -1,0 +1,24 @@
+{
+  "cars": [
+    {
+      "id": 3,
+      "title": "Gol Prata 2008",
+      "model": "Gol",
+      "brand": "Volkswagen",
+      "year": 2008,
+      "color": "Prata",
+      "km": 60932666,
+      "price": 9999.22
+    },
+    {
+      "id": 4,
+      "title": "Gol Vermelho 2000",
+      "model": "Gol",
+      "brand": "Volkswagen",
+      "year": 2000,
+      "color": "Vermelho",
+      "km": 9026762,
+      "price": 7890.22
+    }
+  ]
+}

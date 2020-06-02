@@ -7,17 +7,18 @@
     "react": "^16.4.1",
     "react-currency-formatter": "^1.1.0",
     "react-dom": "^16.4.1",
-    "react-scripts": "1.1.4"
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "1.1.4",
+    "webpack": "^3.11.0"
   },
   "scripts": {
-    "start": "react-scripts start",
+    "start": "react-scripts start & json-server -p 8000 ./mock/db.json",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
   },
   "devDependencies": {
     "node-sass": "^4.9.2",
-    "sass-loader": "^7.0.3",
-    "webpack": "^4.16.0"
+    "sass-loader": "^7.0.3"
   }
 }
