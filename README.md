@@ -22,7 +22,7 @@ npm start # build-in the project Port:3000 and json server auth Port:8000
 [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS/Reference)     
 [JSON Server](https://www.npmjs.com/package/json-server)
 
-# SOBRE O TESTE
+## SOBRE O TESTE
 ### front-end test
 Teste para avaliação do nível técnico para posição de frontend.
 
