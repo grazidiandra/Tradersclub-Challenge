@@ -3,10 +3,11 @@ import { Link } from 'react-router-dom';
 //Style
 import './styles.css';
 
-const Home = ({ listOfCars }) => {
+const Home = ({ listOfCars, search }) => {
   return (
     <div className='container'>
       <div className='homePage'>
+        {!search && <p className='homePage__title'>Pesquisa de veiculos do <span>TradersClub</span></p> }
         {listOfCars && listOfCars.map(car => {
           return (
             <Link to={`/carDetail/${car.id}`} key={car.id} style={{ textDecoration: 'none' }}>
@@ -30,6 +31,6 @@ const Home = ({ listOfCars }) => {
       </div>
     </div>
   )
-}
+};
 
 export default Home;

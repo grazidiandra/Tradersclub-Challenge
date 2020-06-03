@@ -27,7 +27,6 @@ class NewCar extends Component {
 
   handleFormSubmit(event) {
     event.preventDefault();
-    console.log(this.state)
     let {title, model, brand, year, color, km, price } = this.state;
 
     api.post('/cars', { 
@@ -84,6 +83,6 @@ class NewCar extends Component {
       </div>
     )
   }
-}
+};
 
 export default NewCar;
