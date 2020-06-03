@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import api from '../../service/api';
+import api from '../service/api';
 import { Redirect } from "react-router-dom";
 
 class NewCar extends Component {

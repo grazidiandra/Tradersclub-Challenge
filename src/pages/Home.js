@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
-import api from '../../service/api';
+import api from '../service/api';
 import { Link } from 'react-router-dom';
+
+import Search from '../components/Search';
 
 class Home extends Component {
   constructor(props){
@@ -30,18 +32,20 @@ class Home extends Component {
     const { listOfCars } = this.state
 
     return (
-      <div>
-         <input type='text' placeholder='Pesquise por um veículo' onChange={e => this.getCars(e)}/>
-         <Link to={'/newCar'}>Cadastrar</Link>
-         {listOfCars.map(car => {
-           return (
+      <div className='homeContainer'>
+        <Search placeholder='Pesquise por um veículo' onChange={e => this.getCars(e)} title='Cadastrar'/>
+        <div className='homePage'>
+          <div className='homePage-filter'></div>
+          {listOfCars.map(car => {
+            return (
               <div key={car.id}>
                 <Link to={`/carDetail/${car.id}`} key={car.id} style={{ textDecoration: 'none' }}>
                 <p>{car.title}</p>
                 </Link>
               </div>
-           )
-         })}
+            )
+          })}
+        </div>
       </div>
     )
   }

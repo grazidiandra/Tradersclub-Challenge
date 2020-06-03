@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
-import api from '../../service/api';
+import api from '../service/api';
 import { Link, Redirect } from 'react-router-dom';
+
 
 class CarDetail extends Component {
   constructor(props){
