@@ -1,4 +1,6 @@
 import React from 'react';
+//Style
+import './styles.css';
 
 const ButtonPrimary = ({title, onClick, blue, type}) => {
   return (

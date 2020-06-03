@@ -3,7 +3,9 @@ import { Redirect } from "react-router-dom";
 //Service
 import api from '../service/api';
 //Components
-import ButtonPrimary from '../components/ButtonPrimary';
+import ButtonPrimary from '../components/Controls/ButtonPrimary';
+//Style
+import './styles.css';
 
 class NewCar extends Component {
   constructor(props){

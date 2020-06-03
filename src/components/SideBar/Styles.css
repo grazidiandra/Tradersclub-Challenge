@@ -1,0 +1,12 @@
+.logo {
+  background-color: #0e1823;
+  display: flex;
+  justify-content: center;
+  padding-top: 50px;
+  width: 28%;
+}
+
+.logo img {
+  height: 80px;
+  width: 80px;
+}

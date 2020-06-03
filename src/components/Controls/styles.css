@@ -1,0 +1,25 @@
+.btn__white {
+  align-items: center;
+  background-color:#ffffff;
+  border-radius: 5px;
+  color: #1a2333;
+  font-size: 22px;
+  justify-content: center;
+  cursor: pointer;
+  padding: 10px 20px;
+  text-decoration: none;
+}
+
+.btn__blue {
+  align-items: center;
+  background-color: transparent;
+  border-radius: 5px;
+  border: 1px solid #fff;
+  color: #fff;
+  font-size: 22px;
+  justify-content: center;
+  cursor: pointer;
+  padding: 10px 20px;
+  text-decoration: none;
+  margin-right: 20px;
+}

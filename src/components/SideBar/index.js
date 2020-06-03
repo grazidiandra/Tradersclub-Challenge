@@ -1,7 +1,9 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+//Style
+import './Styles.css';
 
-const Logo = () => {
+const SideBar = () => {
   return (
     <div className='logo'>
       <Link to={"/"}><img src='/img/logo-tc.png' alt='logo'/></Link>
@@ -9,4 +11,4 @@ const Logo = () => {
   )
 };
 
-export default Logo;
+export default SideBar;

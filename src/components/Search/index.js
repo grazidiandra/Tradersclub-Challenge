@@ -1,5 +1,7 @@
 import React from 'react';
-import LinkPrimary from './LinkPrimary';
+import LinkPrimary from '../Controls/LinkPrimary';
+//Style
+import './styles.css';
 
 const Search = ({placeholder, onChange, title }) => {
   return(

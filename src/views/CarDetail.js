@@ -3,8 +3,10 @@ import { Redirect } from 'react-router-dom';
 //Service
 import api from '../service/api';
 //Components
-import LinkPrimary from '../components/LinkPrimary';
-import ButtonPrimary from '../components/ButtonPrimary';
+import LinkPrimary from '../components/Controls/LinkPrimary';
+import ButtonPrimary from '../components/Controls/ButtonPrimary';
+//Style
+import './styles.css';
 
 
 class CarDetail extends Component {
@@ -68,7 +70,7 @@ class CarDetail extends Component {
 
   render() {
     const {title, model, brand, year, color, km, price, deleteCar, messageUpdate } = this.state;
-    
+
     return (
       <div className='container'>
         <div className='homePage'>

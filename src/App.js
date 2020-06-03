@@ -3,8 +3,8 @@ import React, { Component} from 'react';
 import api from './service/api';
 
 import Routes from './routes/Routes';
-import Logo from './components/Logo';
-import Search from './components/Search';
+import SideBar from './components/SideBar/';
+import Search from './components/Search/';
 
 class App extends Component {
   constructor(props){
@@ -32,7 +32,7 @@ class App extends Component {
   render() {
     return (
       <main className='mainStructure'>
-          <Logo/>
+          <SideBar/>
         <div className='content'>
           <Search title='Cadastrar' onChange={e => this.getCars(e)}/>
           <Routes listOfCars={this.state.listOfCars}/>
